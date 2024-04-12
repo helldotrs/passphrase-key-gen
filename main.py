@@ -10,12 +10,13 @@ def randomize_list(a):
   #is it better to scrable list or rang a number and check if its already been genereated?
 
 #FIX ME: pull apart, 
-def print_result():
+def get_result():
   count = 0
   output_list = []
   for item in randomize_list(get_list()):
     output_list.append(f"{count} : {item}")
     count += 1
+  return output_list
   
-print_result()
+print(get_result())
 
