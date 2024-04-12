@@ -18,5 +18,7 @@ def get_result():
     count += 1
   return output_list
   
-print(get_result())
+print_result():
+  for item in get_result():
+    print(item)
 
