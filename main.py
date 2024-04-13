@@ -1,4 +1,4 @@
-#FIX ME
+
 def get_list(file_path):
     with open(file_path, 'r') as my_file:
         output_list = [line_item.strip() for line_item in my_file.readlines()]
