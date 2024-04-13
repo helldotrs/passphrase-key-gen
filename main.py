@@ -14,7 +14,7 @@ def get_result():
   count = 0
   output_list = []
   for item in randomize_list(get_list(nouns.txt)): #FIX ME: input for filepath/standard path if no output (like wordlist.txt)
-    output_list.append(f"{count} : {item}")
+    output_list.append(f"{count}, {item}")
     count += 1
   return output_list
   
