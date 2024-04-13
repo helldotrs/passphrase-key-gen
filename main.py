@@ -6,7 +6,7 @@ def get_list(file_path):
     return output_list
 
 def randomize_list(a):
-  return random.shuffle(a)
+  return random.sample(a)
   #is it better to scrable list or rang a number and check if its already been genereated?
 
 #FIX ME: pull apart, 
