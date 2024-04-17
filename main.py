@@ -28,6 +28,6 @@ def save_results(output_data = "default"):
         my_file.write(output_data)
 
 def main():
-   save_results(get_results)
+   save_results(get_results())
 
 main()
