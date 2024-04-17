@@ -26,4 +26,7 @@ def save_results(output_data = "default"):
     with open('output.csv', 'w') as my_file:
         my_file.write(output_data)
 
-print_result()
+def main():
+   print_result()
+
+main()
