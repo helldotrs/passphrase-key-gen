@@ -16,7 +16,8 @@ def get_result():
         output_list.append(f"{count}, {item}")
         count += 1
     return output_list
-  
+
+#fix me: for testing only, delete asap
 def print_result():
     for item in get_result():
         print(item)
@@ -27,6 +28,6 @@ def save_results(output_data = "default"):
         my_file.write(output_data)
 
 def main():
-   print_result()
+   save_results(get_results)
 
 main()
